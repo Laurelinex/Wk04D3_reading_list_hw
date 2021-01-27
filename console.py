@@ -12,6 +12,8 @@ author1 = Author("Terry", "Pratchett")
 author_repository.save(author1)
 author2 = Author("David", "Ascher")
 author_repository.save(author2)
+author3 = Author("Laureline", "Vaucoy")
+author_repository.save(author3)
 
 
 book_1 = Book("Colour of Magic", "Fantasy", "Colin Smythe", author1)
